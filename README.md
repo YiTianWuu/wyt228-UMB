@@ -47,3 +47,13 @@ pysam
 Instructions for use:
 
 In terminal, navigate to the current folder containing codes and the fastq file to analyze, then type in "sh AML_panel_run_all.sh"
+
+FLT3-ITD data analysis
+
+adapter sequences were removed, and sample barcode sequences were extracted (4 nt in BfP, and 4 nt in BrP) using custom Python software. The processed sequences were then aligned to FLT3 amplicons using Bowtie 2. Sample barcode analysis and ITD calling were performed using custom Python software.
+
+code:
+
+adapter_trim_flt3_USB.py
+
+
