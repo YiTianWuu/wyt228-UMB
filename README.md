@@ -20,7 +20,7 @@ run_filter_v2.m: Matlab code for variant filtering
 
 LoadVarSummary.m, FilterVarSummaryv20210127.m, WriteFilterVar2File.m, comp_str.m, EnR2GenomePos.m: Matlab functions
 
-SearchOverlapUMI.m: Matlab code for deducting variant molecules with the same UMI
+SearchOverlapUMI.m
 
 Other files:
 
